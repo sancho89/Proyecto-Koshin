@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "truelies";
+    src: url("../FONTS/True Lies.ttf");
+}
+
+@font-face {
+    font-family: "bunguee";
+    src: url("../FONTS/BungeeInline-Regular.ttf");
+}
+
+@font-face {
+    font-family: "WoB";
+    src: url("../FONTS/White On Black.ttf");
+}
+
+header {
+    font-family: truelies;
+    height: 300px;
+    color: white;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: solid rgb(255, 44, 77) 20px;
+}
+
+header img {
+    position: relative;
+    left: 50px;
+    bottom: 175px;
+    width: 200px;
+    height: 200px;
+}
+
+header h1 {
+    padding:30px;
+    text-align: center;
+    font-size: 125px;
+}
+
+header button {
+    font-family: bunguee;
+    position: relative;
+    left: 460px;
+    bottom: 75px;
+}
+#transparente{
+    position: relative;
+    opacity: 40%;
+    top: 60px;
+    font-size: 80px;
+
+}
+#titulo{
+    text-align: center;
+    font-family: truelies;
+}
+#principal{
+    position: relative;
+    bottom: 30px;
+    font-size: 80px;
+}
+div#staff1 img{
+    width: 300px;
+    height: 200px;
+}
+
+div#staff1 div{
+    padding: 2em;
+    margin: 3em;
+    display: inline-block;
+    width: 320px;
+    box-sizing:border-box;
+}
+h3{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    font-family: WoB;
+}
