@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "truelies";
+    src: url(fonts/True\ Lies.ttf);
+}
+
+@font-face {
+    font-family: "bunguee";
+    src: url(fonts/BungeeInline-Regular.ttf);
+}
+
+.banner{
+    background-image: url(img/Logo\ pequeño.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 10vw;
+    font-size: 3vw;
+	background-color: black;
+	text-align: center;
+    color: #fff;
+    border-bottom: solid rgb(255, 44, 77) 20px;
+}
+
+.banner-heading{
+	font-family: 'truelies';
+}
+
+.btn-banner {
+    font-family: 'bunguee';
+	border-radius:10px;
+	color:#fff; 
+}
+
+h1 {
+    font-size: 6.5vw;
+}
+
+
+
