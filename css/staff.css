@@ -1,47 +1,42 @@
 @font-face {
     font-family: "truelies";
-    src: url("../FONTS/True Lies.ttf");
+    src: url("../fonts/True Lies.ttf");
 }
 
 @font-face {
     font-family: "bunguee";
-    src: url("../FONTS/BungeeInline-Regular.ttf");
+    src: url("../fonts/BungeeInline-Regular.ttf");
 }
 
 @font-face {
     font-family: "WoB";
-    src: url("../FONTS/White On Black.ttf");
+    src: url("../fonts/White On Black.ttf");
 }
 
-header {
-    font-family: truelies;
-    height: 300px;
-    color: white;
-    background-color: black;
+.banner{
+    background-image: url("../img/Logo_pequeño.jpg");
+    background-position: left;
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: 10vw;
+    font-size: 3vw;
+	background-color: black;
+	text-align: center;
+    color: #fff;
     border-bottom: solid rgb(255, 44, 77) 20px;
 }
 
-header img {
-    position: relative;
-    left: 50px;
-    bottom: 175px;
-    width: 200px;
-    height: 200px;
+.banner-heading{
+	font-family: 'truelies';
 }
 
-header h1 {
-    padding:30px;
-    text-align: center;
-    font-size: 125px;
+.btn-banner {
+    font-family: 'bunguee';
+	border-radius:10px;
+	color:#fff; 
 }
 
-header button {
-    font-family: bunguee;
-    position: relative;
-    left: 460px;
-    bottom: 75px;
+h1 {
+    font-size: 6.5vw;
 }
 #transparente{
     position: relative;
@@ -59,21 +54,66 @@ header button {
     bottom: 30px;
     font-size: 80px;
 }
-div#staff1 img{
-    width: 300px;
-    height: 200px;
-}
+div.gallery {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-div#staff1 div{
-    padding: 2em;
-    margin: 3em;
-    display: inline-block;
-    width: 320px;
-    box-sizing:border-box;
-}
+  .gallery img {
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+  }
 h3{
     position: relative;
     left: 100px;
     top: 30px;
     font-family: WoB;
+    margin: 2em;
+}
+main:first-child{
+    margin: 10px;
 }
