@@ -9,7 +9,7 @@
 }
 
 .banner{
-    background-image: url(img/Logo\ pequeño.jpg);
+    background-image: url(../img/Logo_pequeño.jpg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 10vw;
