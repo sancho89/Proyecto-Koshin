@@ -38,58 +38,98 @@ h1 {
 
     position: relative;
     opacity: 40%;
-    top: 60px;
-    font-size: 80px;
+    top: 1.75vw;
+    font-size: 3vw;
 
 }
 
 #titulo {
-
+    position: relative;
     text-align: center;
     font-family: truelies;
-
+    font-size: 3vw;
 }
 
 #principal {
-
     position: relative;
-    bottom: 30px;
-    font-size: 80px;
+    top: -1.75vw;
+    font-size: 3vw;
+}
 
-}
-img#ahri {
-    width: 50px;
-    height: 50px;
-}
 
 img {
     width: 400px;
     height: 400px;
 }
+  
+  div.gallery:hover {
+    opacity: 0.3
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-div.img{
-    display:table;
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
   }
-  div.img img{
-   margin:0;
-   padding:0;
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
   }
-  div.ahri span{
-   line-height:normal;
-   font-size:11px;
-   display:table-caption;
-   margin:0;
-   padding:0;
-   background:#646464;
-   color:white;
-   font-style:italic;
-   text-align:center;
-   position:relative;
-   height:0;
+
+  .carrito img {
+      position: relative;
+      bottom: 6vw;
+      left: 90vw;
+      width: 3vw;
+      height: 3vw;
   }
-  div.ahri span span{
-   background:rgba(0, 0, 0, 0.4);
-   display:block;
-   padding:3px;
-   text-shadow:0 0 15px white;
-  }
+
+
