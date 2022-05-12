@@ -1,15 +1,15 @@
 @font-face {
     font-family: "truelies";
-    src: url(fonts/True\ Lies.ttf);
+    src: url(../fonts/True\ Lies.ttf);
 }
 
 @font-face {
     font-family: "bunguee";
-    src: url(fonts/BungeeInline-Regular.ttf);
+    src: url(../fonts/BungeeInline-Regular.ttf);
 }
 
 .banner{
-    background-image: url(../img/Logo_pequeño.jpg);
+    background-image: url(../img/Logo\ pequeño.jpg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 10vw;
