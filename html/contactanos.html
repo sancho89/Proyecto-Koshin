@@ -11,264 +11,29 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet"> 
-      <link rel="stylesheet" href="header.css">
+      <link rel="stylesheet" href="../css/contactos.css">
       
       </head>
-<style type="text/css">
-    /* Formatear el formulario a dos columnas */
-    
-    h1{
-        width: 200px;
-        font-size: larger;
-    }
-    
-    .izquierda {
-      float: left;
-      clear: left;
-    }
 
-    
-    .derecha {
-      float: right;
-      clear: right;
-    }
-    
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    #contenedor {
-      margin: 1em auto;
-      padding: 1em;
-      width: 950px;
-    }
-    
-    span.requerido {
-      font-size: 1.3em;
-      font-weight: bold;
-      color: yellow;
-    }
-    
-    h1 {
-      font: normal 2em arial, sans-serif;
-      margin: 0;
-    }
-    
-    ul li.botones {
-      border-top: 2px solid #CCC;
-      clear: both;
-      float: none;
-      padding: 1em 0;
-      margin-top: 1em;
-      text-align: right;
-      width: 75%;
-    }
-    
-    ul li.botones input {
-      font-size: 1.3em;
-    }
-
-    
-
-
-    .fondo1:hover{
-        background-image: url(/img/viegoskin.jpg);
-      background-repeat: no-repeat;
-      background-size: 100% ;
-    }
-    .fondo2:hover{
-        background-image: url(/img/qiyanaskin.jpg);
-      background-repeat: no-repeat;
-      background-size: 100% ;
-    }
-    .fondo3:hover{
-        background-image: url(/img/Volibearskin.jpg);
-      background-repeat: no-repeat;
-      background-size: 100% ;
-    }
-    .fondo4:hover{
-        background-image: url(/img/fiddleskin.jpg);
-      background-repeat: no-repeat;
-      background-size: 100% ;
-    }
-    
-    ul li {
-      margin: 0.5em 0;
-      padding: 0.5em;
-      width: 46%;
-    }
-    
-    ul li label.titulo {
-      font-weight: bold;
-      font-size:larger;
-    }
-    
-    ul li div span {
-      
-      padding: 0.3em 0;
-    }
-    
-    ul li div span.completo {
-      width: 100%;
-    }
-    
-    ul li div span.mitad {
-      width: 50%;
-    }
-    
-    ul li div span.tercio {
-      width: 33%;
-    }
-    
-    ul li div span.dostercios {
-      width: 66%;
-    }
-    
-    ul li div span label {
-      display: block;
-      font: normal 0.8em arial, sans-serif;
-      color: #333;
-    }
-    
-    ul li p.ayuda {
-      display: none;
-    }
-    
-    ul li input {
-      padding: 0.2em;
-    }
-    
-    input#apellido1, input#apellido2, input#direccion, input#email {
-      width: 260px;
-    }
-    
-    input#codigopostal {
-      width: 80px;
-    }
-    
-    select#provincia {
-      width: 90px;
-    }
-    
-    select#pais {
-      width: 150px;
-    }
-    
-     input#telefonomovil {
-      width: 200px;
-    }
-    
-    
-    
-    ul li.botones:hover {
-      background-color: transparent;
-    }
-  
-    
-    ul li input:focus {
-      border: 2px solid #E6B700;
-    }
-    
-    /* Formatear el formulario a una columna */
-    ul li.izquierda, ul li.derecha {
-      float: none;
-      width: auto;
-    }
-    
-    ul li {
-      overflow: hidden;
-    }
-
-    .img1{
-        position: relative;
-        right: 450px;
-        bottom: -200px;
-    }
-    .img2{
-       
-        position: relative;
-        right: -440px;
-        bottom: -210px;
-    }
-    
-    ul li label.titulo {
-      float: left;
-      width: 150px;
-      margin: 30px;
-      padding: 20px;
-    }
-    
-    ul li div {
-      margin-left: 160px;
-    }
-    
-    /* Aspecto final del formulario con los mensajes de ayuda */
-    h1 {
-      margin-bottom: 0.3em;
-    }
-    
-    ul li {
-      border-top: 1px solid #CCC;
-      margin: 0;
-      padding: 1em;
-    }
-    
-    ul li.botones {
-      margin: 0;
-    }
-    
-    ul li label.titulo {
-      text-align: right;
-      width: 100px;
-    }
-    /*mirar desde aqui a arriba*/
-    ul li div {
-      margin-left: 175px;
-      overflow: hidden;
-    }
-    
-    ul li {
-      position: relative;
-    }
-    
-    ul li:hover p.ayuda {
-      display: block;
-      margin: 0.3em;
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 150px;
-    }
-    
-
-form{
-    position: absolute;
-}
-@font-face {
-    font-family: True Lies;
-    src: url(/img/True\ Lies.ttf);
-}
-.titulo,h1 {
-    font-family: True Lies;
-
-}
-</style>
 <body>
-    <header>
-    <h2>KOSHIN</h2>
-    <img src="img/Logo pequeño.jpg">
-    <div class="btn">
-    <button  type="button" class="btn btn-danger">EQUIPOS</button>
-    <button  type="button" class="btn btn-danger">STAFF</button>
-    <button  type="button" class="btn btn-danger">MERCHANDISING</button>
-    <button type="button" class="btn btn-danger">CONTACTO</button>
+  <div class="banner">
+    <div class="banner-heading">
+
+      <h1>KOSHIN</h1>
+      <div class="btn-banner">
+        <button type="button" class="btn btn-danger btn-banner">EQUIPOS</button>
+        <button type="button" class="btn btn-danger btn-banner">STAFF</button>
+        <button type="button" class="btn btn-danger btn-banner">MERCHANDISING</button>
+        <button type="button" class="btn btn-danger btn-banner">CONTACTO</button>
+      </div>
+    </div>
   </div>
-  </header>
     <div id="contenedor">
     
-    <h1>Contáctanos</h1>
+      <div id="titulo">
+        <h2 id="transparente">Contactanos</h2>
+        <h2 id="principal">Contactanos</h2>
+    </div>
     
     <form method="post" action="#">
     <ul>
@@ -276,18 +41,21 @@ form{
       <label class="titulo" for="nombre">Información personal <span class="requerido">*</span></label>
       <div>
         <span class="completo">
-          <input id="nombre" name="nombre" value="">
           <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" value="">
+         
         </span>
     
         <span class="completo">
-          <input id="apellido1" name="apellido1" value="">
           <label for="apellido1">Primer apellido</label>
+          <input id="apellido1" name="apellido1" value="">
+         
         </span>
         
         <span class="completo">
-          <input id="apellido2" name="apellido2" value="">
           <label for="apellido2">Segundo apellido</label>
+          <input id="apellido2" name="apellido2" value="">
+
         </span>
       </div>
     
@@ -301,8 +69,9 @@ form{
     
       <div>
         <span class="completo">
-          <input id="email" name="email" value="">
           <label for="email">Email</label>
+          <input id="email" name="email" value="">
+          
         </span>
       </div>
     
@@ -314,8 +83,9 @@ form{
     
       <div>
         <span class="mitad">
-          <input id="telefonomovil" name="telefonomovil" value="">
           <label for="telefonomovil">Móvil</label>
+          <input id="telefonomovil" name="telefonomovil" value="">
+         
        
 
           
@@ -328,12 +98,15 @@ form{
       
         <div>
             <span class="mitad">
-                <input id="Asunto" name="telefonomovil" value="">
-                <label for="Asunto">Asunto</label>
+              <label for="Asunto">Asunto</label>  
+              <input id="Asunto" name="telefonomovil" value="">
+                
                 
           <span class="mitad">
-            <textarea class="msgleer" style="width: 300px; height: 75px;"></textarea>
             <label for="texto">Texto</label>
+            <textarea class="msgleer" style="width: 300px; height: 75px;"></textarea>
+            
+
          
    
             

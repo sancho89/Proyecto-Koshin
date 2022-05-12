@@ -1,0 +1,272 @@
+    /* Formatear el formulario a dos columnas */
+    
+    h2{
+        width: 200px;
+        font-size: larger;
+    }
+    
+    .izquierda {
+      float: left;
+      clear: left;
+    }
+
+    
+    .derecha {
+      float: right;
+      clear: right;
+    }
+    
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #contenedor {
+      margin: 1em auto;
+      padding: 1em;
+      width: 775px;
+    }
+    
+    span.requerido {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: yellow;
+    }
+    
+     h2 {
+      font: normal 2em arial, sans-serif;
+      margin: 0;
+    }
+    
+    ul li.botones {
+      border-top: 2px solid #CCC;
+      clear: both;
+      float: none;
+      padding: 1em 0;
+      margin-top: 1em;
+      text-align: right;
+      width: 75%;
+    }
+    
+    ul li.botones input {
+      font-size: 1.3em;
+    }
+
+    
+
+
+    .fondo1:hover{
+        background-image: url(/img/viegoskin.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% ;
+    }
+    .fondo2:hover{
+        background-image: url(/img/qiyanaskin.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% ;
+    }
+    .fondo3:hover{
+        background-image: url(/img/Volibearskin.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% ;
+    }
+    .fondo4:hover{
+        background-image: url(/img/fiddleskin.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% ;
+    }
+    
+    ul li {
+      margin: 0.5em 0;
+      padding: 0.5em;
+      width: 46%;
+    }
+    
+    ul li label.titulo {
+      font-weight: bold;
+      font-size:larger;
+    }
+    
+    ul li div span {
+      
+      padding: 0.3em 0;
+    }
+    
+    ul li div span.completo {
+      width: 100%;
+    }
+    
+    ul li div span.mitad {
+      width: 68%;
+    }
+    
+    ul li div span.tercio {
+      width: 33%;
+    }
+    
+    ul li div span.dostercios {
+      width: 66%;
+    }
+    
+    ul li div span label {
+      display: block;
+      font: normal 0.8em arial, sans-serif;
+      color: #333;
+    }
+    /*aqui*/
+    ul li p.ayuda {
+      display: none;
+    }
+    
+    ul li input {
+      padding: 0.2em;
+    }
+    
+    input#apellido1, input#apellido2, input#direccion, input#email , input#nombre {
+      width: 300px;
+    }
+
+    
+
+    
+
+     input#telefonomovil {
+      width: 200px;
+    }
+    
+  
+    ul li input:focus {
+      border: 2px solid black;
+    }
+    
+    /* Formatear el formulario a una columna */
+    ul li.izquierda, ul li.derecha {
+      float: none;
+      width: auto;
+    }
+    
+    
+
+    .img1{
+        position: relative;
+        right: 26vw;
+        bottom: -10.1vw;
+        width: 20vw;
+    }  div#contenedor
+    .img2{
+       
+        position: relative;
+        right: -42vw;
+        bottom: 15vw;
+        width: 25vw;
+    }
+    
+    ul li label.titulo {
+      float: left;
+      width: 150px;
+      margin: 30px;
+      padding: 20px;
+    }
+    
+    
+    /* Aspecto final del formulario con los mensajes de ayuda */
+    h2 {
+      margin-bottom: 0.3em;
+    }
+    
+    ul li {
+      border-top: 1.5px solid #CCC;
+      margin: 0;
+      padding: 1.5em;
+      overflow: hidden;
+    }
+    
+    ul li label.titulo {
+      text-align: right;
+      width: 100px;
+    }
+    /*mirar desde aqui a arriba*/
+    ul li div {
+      margin-left: 275px;
+      overflow: hidden;
+    }
+    
+    ul li {
+      position: relative;
+    }
+    
+    ul li:hover p.ayuda {
+      display: block;
+      margin: 0.3em;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 150px;
+    }
+    
+
+form{
+    position: absolute;
+}
+@font-face {
+    font-family: True Lies;
+    src: url(/fonts/True\ Lies.ttf);
+}
+.titulo,h2 {
+    font-family: True Lies;
+
+}
+@font-face {
+    font-family: "truelies";
+    src: url(/fonts/True\ Lies.ttf);
+}
+
+@font-face {
+    font-family: "bunguee";
+    src: url(/fonts/BungeeInline-Regular.ttf);
+}
+
+.banner{
+    background-image: url(/img/Logo_pequeño.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 10vw;
+    font-size: 3vw;
+	background-color: black;
+	text-align: center;
+    color: #fff;
+    border-bottom: solid rgb(255, 44, 77) 20px;
+}
+
+.banner-heading{
+	font-family: 'truelies';
+}
+
+.btn-banner {
+    font-family: 'bunguee';
+	border-radius:10px;
+	color:#fff; 
+}
+
+ h1 {
+    font-size: 6.5vw;
+}
+
+#transparente{
+    position: relative;
+    opacity: 40%;
+    top: 1.75vw;
+    font-size: 5vw;
+}
+#titulo{
+position: relative;
+left: 6.5vw;
+font-family: truelies;
+
+}
+#principal{
+    position: relative;
+    top: -4vw;
+    font-size: 5vw;
+}
